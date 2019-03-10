@@ -1,0 +1,257 @@
+
+/* Navbar  */
+
+
+#fellows{
+  margin-top:5%;
+}
+
+.navbar {
+  background-color: #FF5F01;
+}
+
+#navbarcc{
+	justify-content: flex-end;
+}
+
+#navbarcc a{
+
+font-style: normal;
+color: white;
+}
+#navbarcc .under:hover{
+	border-bottom: 2px solid white;
+}
+.pipe {
+	margin-left: 0.1em;
+	margin-right: 0.1em;
+ }
+
+
+ /* Slideshow -carousel */
+
+ .carousel {
+  width: 100%;
+  height: auto;
+}
+.carousel-item {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.carousel-caption {
+  text-align: left;
+}
+.img-fluid{
+  width: 100%;
+}
+
+.text-head {
+  margin-top: 150px;
+  font-size: 4em;
+  font-family: "partybusiness";
+}
+
+.text-head2 {
+  margin-bottom: 180px;
+  font-size: 3em;
+  font-family: "partybusiness";
+}
+.carousel-control-prev,
+.carousel-control-next{
+      bottom: 50%;
+}
+/* buttons most wanted, most dangerous, already captured */
+.centrage{
+  width:70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.centered{
+  justify-content: center;
+}
+
+
+/* On mouse-over */
+.btn:hover {background: #A9A9A9;}
+
+.default {color: black;}
+
+
+
+
+/* mise en forme image gandalf, Hobbit "3 et Yummy Dwarf */
+
+
+
+.card-img-top {
+opacity: 0.5;
+}
+
+
+.dead {
+position: absolute;
+top: 15%;
+left: 35%;
+color: black;
+font-size: 3em;
+}
+
+.texte {
+position: absolute;
+width: 230px;
+margin-left: 20%;
+top: 1px;
+text-align: center;
+background-color: #ffffff;
+color: #000000;
+border-radius: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 2em;
+opacity: 0.8;
+}
+
+span {
+color:#ff6600;
+}
+
+.name {
+position: absolute;
+top: 40%;
+left: 35%;
+color: #ffffff;
+font-size: 2em;
+}
+
+/* effet hover */
+
+.card:hover .card-img-top {
+  opacity: 1;
+  transition : 0.5s ease-in-out;
+  }
+
+.card:hover .texte {
+display:none;
+}
+
+.card:hover .name {
+font-size: 1.em;
+top: 55%;
+left: 35%;
+transition : 0.5s ease-in-out;
+}
+
+/* section  reward*/
+
+
+.floatright{
+  float:right;
+}
+
+.float {
+  float:left;
+  margin-left:3%;
+  margin-right:3%;
+}
+
+.buttoncentered {
+  display:block;
+  margin : 0 auto;
+  width: 40%;
+  text-align: center;
+   
+}
+
+
+/* section About the ring */
+.margin-top{
+  margin-top:5%;
+}
+
+
+table{
+  margin: 30px 0;
+  border: medium solid black;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+tr, td, th{
+  padding: 10px;
+  border: thin solid black;
+}
+
+ th, .greytr{
+  background-color: #E0E0E0;
+}
+/* why the ring is awesome ? */
+
+
+.card{
+  color: #333;
+  border: 1px solid;
+  width:100%;
+}
+
+.card-default>.card-header{
+  background-color: #ff4d00;
+  color: #fff;
+}
+
+
+/* contact form */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+
+/* footer */
+
+footer{
+  background-color: #ff4d00;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li{
+  padding: 10px 0;
+}
+
+footer ul li a, footer p{
+  color:#fff;
+  text-decoration: none;
+  
+}
+
+footer p{
+  font-size : 1.3em;
+}
+
+footer p.footerNote{
+  font-size : 0.9em;
+}
+
+footer p.logo{
+  margin-top: 30px;
+}
+
