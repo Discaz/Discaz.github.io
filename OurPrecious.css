@@ -138,7 +138,7 @@ color: white;
 
 /* mise en forme image gandalf, Hobbit "3 et Yummy Dwarf */
 
-#bodydark {
+.bodydark {
   background: url(https://res.cloudinary.com/dzzuxhr3r/image/upload/v1552325240/bg_dark.png) 0 0 repeat;
   overflow: hidden;
   clear: both;
