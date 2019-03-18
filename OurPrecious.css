@@ -1,3 +1,47 @@
+/* fonts */
+
+
+/* partybusiness police pour le texte */
+@font-face {
+  font-family:'partybusiness';
+  src: url("/home/discaz/.local/share/fonts/partybusiness.ttf");
+  
+}
+/* police Aniron pour les titres */
+
+@font-face {
+  font-family: 'anironcbold';
+  src: url("/home/discaz/.local/share/fonts/anicb___.ttf")
+
+}
+
+
+@font-face {
+  font-family: 'teng';
+  src: url("/home/discaz/.local/share/fonts/tngan.ttf")
+
+}
+
+/*  symboles  Tengwar  */
+
+
+
+
+/* Application des fonts */
+
+h1, h2, h3, h4, h5, h6, .nav, table{
+  font-family: 'anironcbold', cursive;
+}
+
+p{
+  font-family: "partybusiness";
+}
+
+
+.elf{
+  font-family: 'teng';
+  color: #ff4d00;
+  }
 
 /* Navbar  */
 
@@ -30,13 +74,18 @@ color: white;
 
  /* Slideshow -carousel */
 
+ .carousel-inner{
+    max-height: 33em;
+ }
+ 
+ 
  .carousel {
   width: 100%;
   height: auto;
 }
 .carousel-item {
   width: 100%;
-  height: auto;
+  height: 80%;
   overflow: hidden;
 }
 
@@ -62,6 +111,11 @@ color: white;
 .carousel-control-next{
       bottom: 50%;
 }
+
+
+.container{
+  width: 100%;
+}
 /* buttons most wanted, most dangerous, already captured */
 .centrage{
   width:70%;
@@ -83,6 +137,22 @@ color: white;
 
 
 /* mise en forme image gandalf, Hobbit "3 et Yummy Dwarf */
+
+#bodydark {
+  background: url(https://res.cloudinary.com/dzzuxhr3r/image/upload/v1552325240/bg_dark.png) 0 0 repeat;
+  overflow: hidden;
+  clear: both;
+  color: #C0C0C0;
+}
+
+
+
+.cardtitle, .card-text {
+    
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+  }
 
 .image {
   position: relative;
@@ -149,6 +219,18 @@ transition : 0.5s ease-in-out;
 
 
 /* section  reward*/
+#capturedSection{
+  background: url(https://res.cloudinary.com/dzzuxhr3r/image/upload/v1552325240/bg_dark.png) 0 0 repeat;
+  overflow: hidden;
+  color: #fff;
+}
+
+.Iresponsive{
+  width: 100%;
+}
+.borderr{
+	border-radius: 50%;
+}
 
 
 .floatright{
@@ -168,11 +250,56 @@ transition : 0.5s ease-in-out;
   text-align: center;
    
 }
+/* Best Hunters */
+
+
+#bestHunters{
+  background: url(https://res.cloudinary.com/dzzuxhr3r/image/upload/v1552325259/bg_light.png) 0 0 repeat;
+  overflow: hidden;
+  clear: both;
+}
 
 
 /* section About the ring */
+
+.bottom{
+  margin-bottom: 5%;
+}
+
+.card-body{
+  background: url(https://res.cloudinary.com/dzzuxhr3r/image/upload/v1552325259/bg_light.png) 0 0 repeat;
+  overflow: hidden;
+  clear: both;
+}
+
+.card-text{
+  color: black;
+}
+
+#theRing{
+  background: url(https://res.cloudinary.com/dzzuxhr3r/image/upload/v1552325240/bg_dark.png) 0 0 repeat;
+  overflow: hidden;
+  color: #fff;
+}
+
+.card{
+  color: #333;
+  border: 0;
+  margin: 0 auto;
+  width : 100%;
+  
+}
+
+.card-default {
+  background: url(https://res.cloudinary.com/dzzuxhr3r/image/upload/v1552325240/bg_dark.png) 0 0 repeat;
+  overflow: hidden;
+  color: #fff;
+ 
+}
+
+
 .margin-top{
-  margin-top:5%;
+  margin-top:10%;
 }
 
 
@@ -180,7 +307,7 @@ table{
   margin: 30px 0;
   border: medium solid black;
   border-collapse: collapse;
-  width: 90%;
+  width: 100%;
 }
 
 tr, td, th{
@@ -193,11 +320,11 @@ tr, td, th{
 }
 /* why the ring is awesome ? */
 
-
 .card{
   color: #333;
   border: 1px solid;
   width:100%;
+  
 }
 
 .card-default>.card-header{
@@ -205,12 +332,68 @@ tr, td, th{
   color: #fff;
 }
 
+/* Join Mordor Army */
+.left{
+  margin-left: 7%;
+}
+
+.padding{
+  padding: 0, 10%;
+}
+
+.joinwidth{
+  width: 100%;
+}
+
+#join{
+  background: url(https://res.cloudinary.com/dzzuxhr3r/image/upload/v1552325259/bg_light.png) 0 0 repeat;
+  overflow: hidden;
+  clear: both;
+}
+.btn-sauronInfo{
+  margin: 50px 0;
+  text-align: center;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+.btn-fan, .btn-fan:hover{
+  background-color: black;;
+  border: 0;
+  width: 124px;
+  height: 35px;
+  padding-left:30px;
+  color: #ff8200;
+}
+
+.orange{
+  color: #ff4d00;
+}
+
+.btn-sauron, .btn-sauron:hover{
+  background-color: black;
+  color:#ff4d00;
+  font-family: "ani";
+  font-size: 1.3em;
+  border: 1px solid black;
+  width: 450px;
+  height: 73px;
+}
+
 
 /* contact form */
 
+.maxwidth {
+  max-width: 60%;
+  margin-left: 5%;
+}
+
+
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
+  width: 80%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
@@ -220,6 +403,12 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
+
+  #contactus{
+    background: url(https://res.cloudinary.com/dzzuxhr3r/image/upload/v1552325240/bg_dark.png) 0 0 repeat;
+    overflow: hidden;
+    color: #fff;
+  }
 
 
 /* footer */
@@ -259,3 +448,13 @@ footer p.logo{
   margin-top: 30px;
 }
 
+
+
+/* display Carousel */
+
+
+@media only screen and (max-width: 1026px) {
+  .carousel-inner {
+      display: none !important;
+  }
+}
