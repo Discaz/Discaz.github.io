@@ -174,9 +174,9 @@ h3 .symbols{
 }
 .name_dead{
     text-align : center;
-    color : black;
+    color : white;
     font-weight: bold;
-    font-size : 2rem;
+    font-size : 2.5rem;
     text-decoration: line-through;
     text-decoration-color:#ff6600;
 
@@ -200,22 +200,16 @@ h3 .symbols{
     font-family: "symbols";
     color: #ff6600;
 }
-.imageEtTexte:hover img, .imageEtTexte:active img{
+.texte:hover img, .texte:active img{
     opacity : 1;
 }
-.imageEtTexte:hover .reward, .imageEtTexte:active .reward{
+.texte:hover .reward, .texte:active .reward{
     display: none;
 }
-.imageEtTexte:hover .dead, .imageEtTexte:active .dead{
-    display: none;
-}
-.imageEtTexte:hover .name_dead, .imageEtTexte:active .name_dead{
-    margin-top: 30%;
-    color : white;
-    font-size : 2.5rem;
-    text-decoration: line-through solid #ff6600;
-}
-.imageEtTexte:hover .name, .imageEtTexte:active .name{
+
+
+
+.texte:hover .name, .imageEtTexte:active .name{
     margin-top: 30%;
     font-size : 2.5rem;
 }
@@ -237,14 +231,14 @@ h3 .symbols{
     .name_dead{
         display:none;
     }
-    .imageEtTexte:hover .name_dead, .imageEtTexte:active .name_dead{
+    .texte:hover .name_dead, .texte:active .name_dead{
         display:flex;
         justify-content: center;
         color : white;
         font-weight: normal;
         font-size : 2rem;
     }
-    .imageEtTexte:hover .name, .imageEtTexte:active .name{
+    .texte:hover .name, .texte:active .name{
         display:flex;
         justify-content: center;
         font-weight: normal;
@@ -277,14 +271,14 @@ h3 .symbols{
     .name_dead{
         display:none;
     }
-    .imageEtTexte:hover .name_dead, .imageEtTexte:active .name_dead{
+    .texte:hover .name_dead, .texte:active .name_dead{
         display:flex;
         justify-content: center;
         color : white;
         font-weight: normal;
         font-size : 1.9rem;
     }
-    .imageEtTexte:hover .name, .imageEtTexte:active .name{
+    .texte:hover .name, .texte:active .name{
         display:flex;
         justify-content: center;
         font-weight: normal;

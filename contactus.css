@@ -1,0 +1,128 @@
+
+/* Captured section */
+
+#capturedSection, #aboutRing, #contactUs {
+  background: url(../img/_bg_dark.png) 0 0 repeat;
+  overflow: hidden;
+  color: #fff;
+}
+
+#capturedSection, #bestHunters {
+  padding-bottom: 60px;
+}
+
+#aboutRing .card {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #eeeeee;
+}
+
+.card {
+  border: none;
+}
+.card-header {
+  background-color: #ff4d00;
+  color: #fff;
+}
+
+.card-body {
+  padding: 40px;
+  border-bottom: 5px solid #ff4d00;
+}
+
+.btn-sauronInfo {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.btn-fan, .btn-fan:hover {
+  border: 0;
+  background: url(../img/facebook_btn.png) 0 0 no-repeat;
+  background-color: transparent;;
+  width: 124px;
+  height: 35px;
+  padding-left:30px;
+  color: #ff8200;
+}
+
+.orange {
+  color: #ff4d00;
+}
+
+.btn-sauron, .btn-sauron:hover {
+  color: transparent;
+  border: 0;
+  background: url(../img/sauron_btn.png) 0 0 no-repeat;
+  background-color: transparent;
+  width: 450px;
+  height: 73px;
+}
+
+
+
+
+/* contact form */
+
+form {
+  max-width:100% ;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+  #contactus{
+    background: url(https://res.cloudinary.com/dzzuxhr3r/image/upload/v1552325240/bg_dark.png) 0 0 repeat;
+    overflow: hidden;
+    color: #fff;
+  }
+
+
+/* footer */
+
+footer{
+  background-color: #ff4d00;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li{
+  padding: 10px 0;
+}
+
+footer ul li a, footer p{
+  color:#fff;
+  text-decoration: none;
+  
+}
+
+footer p{
+  font-size : 1.3em;
+}
+
+footer p.footerNote{
+  font-size : 0.9em;
+}
+
+footer p.logo{
+  margin-top: 30px;
+}
+
