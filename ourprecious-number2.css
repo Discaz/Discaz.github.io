@@ -16,7 +16,7 @@
   
   
   @font-face {
-    font-family: "symbols";
+    font-family: "tngan";
     src: url("./tngan.ttf")
   
   }
@@ -100,7 +100,7 @@ hr{
     }
 }
 
-/* display Carousel */
+/* nodisplay Carousel on small screen */
 
 
 @media only screen and (max-width: 1026px) {
@@ -118,21 +118,21 @@ hr{
 #fellows h3 #subtexth3{
     font-size: 1.2rem;
 }
-h3 .symbols{
-    font-family: "symbols";
+h3 .tngan{
+    font-family: "tngan";
     color: #fe661d;
 }
 .nav-pills li a{
     color : black;
 }
-.nav-pills li a:active, .nav-pills li a:hover{
+.nav-pills li a:hover{
     color : #fe661d;
     text-decoration: underline;
 }
 #fellows ul li a{
     text-align : center;
 }
-#fellows ul li a .symbols{
+#fellows ul li a .tngan{
     display:none;
 }
 .wanted .card{
@@ -148,7 +148,7 @@ h3 .symbols{
 .amount{
     color:#ffbf00;
   }
-.imageEtTexte img{
+.imgTexte img{
     opacity : 0.6;
     width : 100%;
 }
@@ -172,7 +172,7 @@ h3 .symbols{
     font-weight: bold;
     font-size : 2rem;
 }
-.name_dead{
+.namedead{
     text-align : center;
     color : white;
     font-weight: bold;
@@ -184,7 +184,11 @@ h3 .symbols{
 .hunter{
     padding-top: 2vh;
 }
-
+#hunters{
+    background: url(https://res.cloudinary.com/dzzuxhr3r/image/upload/v1552325259/bg_light.png) 0 0 repeat;
+    overflow: hidden;
+    clear: both;
+  }
 
     
 /* hover fellows */
@@ -195,22 +199,21 @@ h3 .symbols{
 #fellows ul li a:hover .underlined{
     border-bottom: 3px solid #fe661d;
 }
-#fellows ul li a:hover .symbols{
+#fellows ul li a:hover .tngan{
     display:inline;
-    font-family: "symbols";
+    font-family: "tngan";
     color: #ff6600;
 }
-.texte:hover img, .texte:active img{
+.texte:hover img{
     opacity : 1;
 }
-.texte:hover .reward, .texte:active .reward{
+.texte:hover .reward{
     display: none;
 }
 
 
-
-.texte:hover .name, .imageEtTexte:active .name{
-    margin-top: 30%;
+.texte:hover .name {
+    margin-top: 85%;
     font-size : 2.5rem;
 }
 
@@ -228,17 +231,9 @@ h3 .symbols{
     .name{
         display:none;
     }
-    .name_dead{
-        display:none;
-    }
-    .texte:hover .name_dead, .texte:active .name_dead{
-        display:flex;
-        justify-content: center;
-        color : white;
-        font-weight: normal;
-        font-size : 2rem;
-    }
-    .texte:hover .name, .texte:active .name{
+    
+    
+    .texte:hover .name{
         display:flex;
         justify-content: center;
         font-weight: normal;
@@ -265,20 +260,16 @@ h3 .symbols{
     .reward{
         font-size : 1.9rem;
     }
-    .name{
-        display:none;
-    }
-    .name_dead{
-        display:none;
-    }
-    .texte:hover .name_dead, .texte:active .name_dead{
+   
+    
+    .texte:hover .namedead {
         display:flex;
         justify-content: center;
         color : white;
         font-weight: normal;
         font-size : 1.9rem;
     }
-    .texte:hover .name, .texte:active .name{
+    .texte:hover .name {
         display:flex;
         justify-content: center;
         font-weight: normal;
@@ -304,7 +295,7 @@ h3 .symbols{
     margin-left:5vh;
     margin-bottom: 5vh;
 }
-.hunter_name{
+.huntername{
     color:#fe661d;
     font-size: 1.9rem;
 }
@@ -367,6 +358,11 @@ table tr td{
 }
 
 /**** section army ****/
+
+
+.textbtn {
+    color: #fe661d;
+}
 
 #info_army{
     margin:5vh;
