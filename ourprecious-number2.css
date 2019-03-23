@@ -56,7 +56,7 @@ hr{
     h3{
         font-size:1.4rem !important;
     }
-    h3 #subtexth3{
+    h3 .subtexth3{
         font-size:1rem !important;
     }
 }
@@ -88,7 +88,7 @@ hr{
 .carousel-caption p{
     font-size: 4rem;
 }
-.carousel-caption p #subtext{
+.carousel-caption p .subtext{
     font-size: 3.5rem;
 }
 
@@ -115,7 +115,7 @@ hr{
 #fellows{
     background-color: #f0ede6;
 }
-#fellows h3 #subtexth3{
+#fellows h3 .subtexth3{
     font-size: 1.2rem;
 }
 h3 .tngan{
